@@ -1,0 +1,4 @@
+forall:
+
+not((personaje(Personaje), not(sigueA(Personaje, Rey)))).
+forall((personaje(Personaje), sigueA(Personaje, Rey))).
